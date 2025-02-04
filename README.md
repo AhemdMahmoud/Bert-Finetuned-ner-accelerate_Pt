@@ -18,7 +18,7 @@ This notebook demonstrates the implementation of Named Entity Recognition (NER) 
 
 ## Dataset
 
-The dataset used for training consists of sentences where each token (word) is labeled with a Named Entity Recognition (NER) tag. The dataset can be customized by replacing the input tokens and their corresponding labels in the notebook. The labels correspond to different named entity types such as `PER` (person), `LOC` (location), and `ORG` (organization), or other custom labels depending on your use case.
+The dataset used for training consists of sentences where each token (word) is labeled with a Named Entity Recognition (NER) tag. The dataset can be customized by replacing the input tokens and their corresponding labels in the notebook. The labels correspond to different named entity types such as `PER` (person), `LOC` (location), and `ORG` (organization), or other custom labels depending on your use case, and my case tuing in News
 
 ## Libraries Used
 
@@ -26,6 +26,7 @@ The dataset used for training consists of sentences where each token (word) is l
 - **datasets**: Hugging Face library for loading and processing datasets.
 - **torch**: PyTorch for model training and evaluation.
 - **sklearn**: For evaluating model metrics like precision, recall, and F1-score.
+- **Accelerate** 🤗 :library to enable distributed training across multiple GPUs or TPUs efficiently
 
 ## Model
 
@@ -116,6 +117,31 @@ This notebook successfully demonstrates how to fine-tune a transformer-based mod
 
 ---
 
-try : https://colab.research.google.com/drive/1MLUsgfM2MzPih3N-H2brRx15_EOIt__p#scrollTo=ao50w0wPWGPr
+# Try or Contribute
 
-https://www.kaggle.com/code/mkagglec/bert-finetuned-ner-accelerate-pt/edit
+You can try the model and contribute to this project by using the following resources:
+
+## Try the Model
+
+- **Google Colab Notebook**: [Run the notebook on Colab](https://colab.research.google.com/drive/1MLUsgfM2MzPih3N-H2brRx15_EOIt__p#scrollTo=ao50w0wPWGPr)
+
+  
+- **Kaggle Notebook (Fine-tuned BERT for NER using PyTorch)**:
+  - [Kaggle Notebook 1](https://www.kaggle.com/code/mkagglec/bert-finetuned-ner-accelerate-pt/edit)
+
+- **GitHub Repository (Fine-tuning BERT for NER using PyTorch)**: [View on GitHub](https://github.com/AhemdMahmoud/Bert-Finetuned-ner-accelerate_Pt/blob/main/bert-finetuned-ner-accelerate-pt.ipynb)
+
+## Compare with Another Approach
+
+If you are interested in trying a different fine-tuning approach using the Hugging Face Trainer API instead of PyTorch, check out the following model:
+
+- **Hugging Face Model Hub (Fine-tuned BERT for NER using Trainer API)**: [BERT Fine-tuned for NER](https://huggingface.co/Ah7med/bert-finetuned-ner)
+
+## Contribute
+
+If you want to contribute, feel free to:
+- Fork the repository
+- Experiment with hyperparameters
+- Apply this model to different datasets
+
+---
