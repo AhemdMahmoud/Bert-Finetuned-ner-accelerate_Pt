@@ -115,3 +115,7 @@ This notebook successfully demonstrates how to fine-tune a transformer-based mod
 - **Model Deployment**: The fine-tuned model can be deployed to production environments for real-time named entity extraction.
 
 ---
+
+try : https://colab.research.google.com/drive/1MLUsgfM2MzPih3N-H2brRx15_EOIt__p#scrollTo=ao50w0wPWGPr
+
+https://www.kaggle.com/code/mkagglec/bert-finetuned-ner-accelerate-pt/edit
