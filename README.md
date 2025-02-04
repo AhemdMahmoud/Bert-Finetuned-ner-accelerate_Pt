@@ -3,6 +3,8 @@
 ---
 
 # Named Entity Recognition (NER) with Hugging Face Transformers
+![WhatsApp Image 2025-01-23 at 00 36 04_098de980](https://github.com/user-attachments/assets/670b86ea-16d7-4a9e-b07c-8d251409b7d5)
+
 
 ## Overview
 
